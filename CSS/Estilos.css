@@ -8,11 +8,28 @@ body    {
     padding: 0;
 } 
 
-#container{
+#cabecera{
+    background: #88D;
+    box-shadow: 0px 2px 30px 0px #000, 0.5;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5 em;
+}
+
+#container {
     width: 70%;
     padding:  1em;
     text-align: left;
-    border: 1px solid #DDD;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 0 auto;
 }
 
 #container h1{
